@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        img {
+            border-radius: 50%;
+        }
+    </style>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Novo usuário</h1>
+        <h3 id="subtitulo">Criar uma conta</h3>  
+        <img src="/qout/style/foto.jpeg" alt="foto" width="70px" height="70px" >      
+    </div>
+
+    <form>
+        <div class="grupo">
+            <label for="nome"><strong>Nome completo</strong></label>
+            <input type="text" name="nome" id="name" required>
+        </div>   
+
+        <div class="grupo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="grupo">
+            <label for="senha"><strong>Senha</strong></label>
+            <input type="password" name="senha" id="senha" required>
+        </div>
+
+        <div class="grupo">
+            <label for="data"><strong>Data de nascimento</strong></label>
+            <input type="date" name="data" id="data" required>
+        </div>
+
+        <button type="submit">Criar uma conta</button>
+        <!-- como levar ele pra pagina de login? -->
+        <h3> Já tem uma conta? <a href="/login.html">Entrar</a></h3>
+    </form>
+</body>
+</html>
