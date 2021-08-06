@@ -1,1 +1,58 @@
-algo aqui
+/* font importing */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    padding: 20px;
+    font-size: 1em;
+}
+
+body {
+    background-image: linear-gradient( to right, #B2E0F6, #F298A1 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-index {
+    display: block;
+}
+
+.textinho {
+    font-size: 1em;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+}
+
+.botao {
+    border: 1px black;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.botao:hover {
+    background: #f298a1 ;
+}
+
+.link-botao {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.texto-redirecionador {
+    margin-left: 10%;
+
+}
+
+div p a {
+    color: rgb(0, 125, 228);
+    margin-left: 2%;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+

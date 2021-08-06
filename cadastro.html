@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
     <style>
         img {
             border-radius: 50%;
@@ -16,7 +16,7 @@
     <div>
         <h1 id="titulo">Novo usuário</h1>
         <h3 id="subtitulo">Criar uma conta</h3>  
-        <img src="/qout/style/foto.jpeg" alt="foto" width="70px" height="70px" >      
+        <img src="./images/foto.jpeg" alt="foto" width="70px" height="70px" >      
     </div>
 
     <form>
@@ -40,9 +40,12 @@
             <input type="date" name="data" id="data" required>
         </div>
 
-        <button type="submit">Criar uma conta</button>
-        <!-- como levar ele pra pagina de login? -->
-        <h3> Já tem uma conta? <a href="/login.html">Entrar</a></h3>
+        <button class="botao" type="submit">Criar uma conta</button>
     </form>
+
+    <div>
+        <p class="texto-redirecionador"> Já tem uma conta?<a href="login.html">Entrar</a></p>
+    </div>
+
 </body>
 </html>
