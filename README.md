@@ -1,2 +1,3 @@
 # Q-Out
-app qout
+
+aplicativo Q-Out feito em HTML e CSS
